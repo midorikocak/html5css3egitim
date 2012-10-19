@@ -1,0 +1,79 @@
+#marka
+{
+    float:left;
+}
+
+#baglantilar
+{
+    float:right;
+    margin:20px;
+}
+
+#logo
+{
+    margin:10px;
+}
+
+header
+{
+    margin-bottom:10px;
+}
+
+#mesaj
+{
+    margin: 20px;
+}
+
+#bilgiler > article
+{
+    padding: 10px;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-box-shadow: 0 0 5px #efefef;
+    -moz-box-shadow: 0 0 5px #efefef;
+    box-shadow: 0 0 5px #efefef;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#efefef));
+    background: -moz-linear-gradient(top, #fff, #efefef);
+    height:242px;
+}
+
+#bilgiler
+{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#footer-content
+{
+    background: #252525;
+    color: #999;
+    padding:10px;
+}
+
+footer h4
+{
+    color: #fff;
+}
+
+footer a
+{
+    color:#fff;
+}
+
+#altListe
+{
+    list-style:none;
+}
+
+#footer-floor {
+    color: #999;
+    background: #1b1b1b;
+    padding: 10px;
+    text-align:right;
+}
+
+p, ul, ol, dl {
+font-family: "Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
