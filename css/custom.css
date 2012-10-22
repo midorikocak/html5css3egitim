@@ -3,6 +3,10 @@
     float:left;
 }
 
+#icerik { /* this is the div you want to fill the window */
+min-height: 300px !important;
+}
+
 #baglantilar
 {
     float:right;
@@ -12,11 +16,6 @@
 #logo
 {
     margin:10px;
-}
-
-header
-{
-    margin-bottom:10px;
 }
 
 #mesaj
