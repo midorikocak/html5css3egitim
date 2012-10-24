@@ -23,10 +23,10 @@
             <div id="baglantilar" class="span8 navbar">
                 <nav class="navbar-inner">
                     <ul class="nav">
-                        <li><a href="anaSayfa.html">Ana Sayfa</a></li>
+                        <li><a href="index.html">Ana Sayfa</a></li>
                         <li><a href="hakkimizda.html">Hakkımızda</a></li>
                         <li><a href="urunler.html">Ürünlerimiz</a></li>
-                        <li><a href="haberler.html">Duyurular</a></li>
+                        <li><a href="duyurular.html">Duyurular</a></li>
                         <li><a href="kurumsal.html">Kurumsal</a></li>
                         <li><a href="iletisim.html">İletişim</a></li>
                     </ul>
@@ -35,31 +35,28 @@
         </header>
         <section id="icerik" class="container">
             <div id="row">
-                <nav class="span3 yanliste">
-                    <ul class="nav nav-list">
-                        <li>Hakkımızda</li>
-                        <hr>
-                        <li><a href="hakkimizda.html#sirketimiz">Şirketimiz</a></li>
-                        <li><a href="hakkimizda.html#referanslar">Referanslar</a></li>
-                        <li><a href="hakkimizda.html#tarihce">Tarihçe</a></li>
-                        <li><a href="hakkimizda.html#kalitefelsefemiz">Kalite Felsefemiz</a></li>
-                    </ul>
-                </nav>
-                <div class="span8">
-                    <section>
-                        <article itemscope itemtype="http://schema.org/Article">
-                            <header>
-                                <span itemprop="name"><a name="sirketimiz"><h3>Şirketimiz</h3></a></span>
-                                <p><time itemprop="pubdate" datetime="2010-10-29" pubdate>29 Ekim 2012</time></p>
-                            </header>
-                            <p>Kızılyıdız Matbaacılık A.Ş. İstanbul, Sirkeci de faaliyet göstermekte olan baskı şirketidir. Başlıca faaliyet alanları, davetiye, broşür, el ilanı ve poster üretimi olan firma, aynı zamanda müşterilerine özel baskı çözümleri de sunmaktadır. Hali hazırda kendi ajanda ürünlerini Radikal Ajanda  markasıyla pazarlayan şirket, aynı zamanda poster işleri yapan görsel sanatçılara da baskı işleri ile sponsor olmakta ve sanata ve santçıya destek olmaktadır. Şirket ayrıca üniversitelerin sanat ve görsel tasarım bölümleri ile birlikte tasarım yarışmaları yapmış ve birlikte projeler geliştirmiştir.</p>
-                        </article>
-                        <article itemscope itemtype="http://schema.org/Article">
-                            <header>
-                                <span itemprop="name"><a name="referanslar"><h3>Referanslarımız</h3></a></span>
-                                <p><time itemprop="pubdate" datetime="2010-10-15" pubdate>15 Ekim 2012</time></p>
-                            </header>
-                            <p>Kızılyıdız Matbaacılık A.Ş. olarak referanslarımızdan bazıları;
+                <div class="span12">
+                    <section class="tabbable tabs-left">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#sirketimiz" data-toggle="tab">Şirketimiz</a></li>
+                            <li><a href="#referanslar" data-toggle="tab">Referanslar</a></li>
+                            <li><a href="#tarihce" data-toggle="tab">Tarihçe</a></li>
+                            <li><a href="#kalitefelsefemiz" data-toggle="tab">Kalite Felsefemiz</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <article class="tab-pane active" id="sirketimiz" itemscope itemtype="http://schema.org/Article">
+                                <header>
+                                    <h3><span itemprop="name">Şirketimiz</span></h3>
+                                    <p><time itemprop="pubdate" datetime="2010-10-29">29 Ekim 2012</time></p>
+                                </header>
+                                <p>Kızılyıdız Matbaacılık A.Ş. İstanbul, Sirkeci de faaliyet göstermekte olan baskı şirketidir. Başlıca faaliyet alanları, davetiye, broşür, el ilanı ve poster üretimi olan firma, aynı zamanda müşterilerine özel baskı çözümleri de sunmaktadır. Hali hazırda kendi ajanda ürünlerini Radikal Ajanda  markasıyla pazarlayan şirket, aynı zamanda poster işleri yapan görsel sanatçılara da baskı işleri ile sponsor olmakta ve sanata ve santçıya destek olmaktadır. Şirket ayrıca üniversitelerin sanat ve görsel tasarım bölümleri ile birlikte tasarım yarışmaları yapmış ve birlikte projeler geliştirmiştir.</p>
+                            </article>
+                            <article class="tab-pane" id="referanslar" itemscope itemtype="http://schema.org/Article">
+                                <header>
+                                    <h3><span itemprop="name">Referanslarımız</span></h3>
+                                    <p><time itemprop="pubdate" datetime="2010-10-15">15 Ekim 2012</time></p>
+                                </header>
+                                <p>Kızılyıdız Matbaacılık A.Ş. olarak referanslarımızdan bazıları;</p>
                                 <ul>
                                     <li>Açık Kaynak Maden Suları</li>
                                     <li>Uranyum Yazılım</li>
@@ -68,14 +65,13 @@
                                     <li>Atolye Atolyesi Sanat Galerisi</li>
                                     <li>Sınırsız Çay Felsefe Klübü</li>     
                                 </ul>
-                            </p>
-                        </article>
-                        <article itemscope itemtype="http://schema.org/Article">
-                            <header>
-                                <span itemprop="name"><a name="tarihce"><h3>Tarihçe</h3></a></span>
-                                <p><time itemprop="pubdate" datetime="2010-10-14" pubdate>14 Ekim 2012</time></p>
-                            </header>
-                            <p>Kızılyıdız Matbaacılık A.Ş. 14 Mart 1971 yılında, İstanbul'da matbaacılıkta yeni teknolojilerin kullanımına yer açmak ve baskı hizmetlerine devrimci bir soluk getirmek amacıyla kurulmuştur. Bugüne kadar birçok sanat etkinliğinin hem sponsoru hem de düzenleyicisi olan şirket, görsel tasarım alanında birçok faaliyetlerde de buşunmuştur. Bugüne kadar birçok ödül alan firmamızın aldığı ödüllerden bazıları şunlardır:
+                            </article>
+                            <article class="tab-pane" id="tarihce" itemscope itemtype="http://schema.org/Article">
+                                <header>
+                                    <h3><span itemprop="name">Tarihçe</span></h3>
+                                    <p><time itemprop="pubdate" datetime="2010-10-14">14 Ekim 2012</time></p>
+                                </header>
+                                <p>Kızılyıdız Matbaacılık A.Ş. 14 Mart 1971 yılında, İstanbul'da matbaacılıkta yeni teknolojilerin kullanımına yer açmak ve baskı hizmetlerine devrimci bir soluk getirmek amacıyla kurulmuştur. Bugüne kadar birçok sanat etkinliğinin hem sponsoru hem de düzenleyicisi olan şirket, görsel tasarım alanında birçok faaliyetlerde de buşunmuştur. Bugüne kadar birçok ödül alan firmamızın aldığı ödüllerden bazıları şunlardır:</p>
                                 <ul>
                                     <li>1974 Balkan Matbaa Ödülleri Avrupa 3. sü</li>
                                     <li>1982 Mimar Sinan Üniversitesi En İyi Baskı Ödülü</li>
@@ -84,52 +80,56 @@
                                     <li>2005 Görsel Sanatlar Derneği, Sanatın Dostu Ödülü</li>
                                     <li>2011 Kalite Derneği, Kalite Özel Ödülü</li>     
                                 </ul>
-                            </p>
-                        </article>
-                        <article itemscope itemtype="http://schema.org/Article">
-                            <header>
-                                <span itemprop="name"><a name="kalitefelsefemiz"><h3>Kalite Felsefemiz</h3></a></span>
-                                <p><time itemprop="pubdate" datetime="2010-10-08" pubdate>8 Ekim 2012</time></p>
-                            </header>
-                            <p>Kızılyıdız Matbaacılık A.Ş. olarak biz, kalitenin ve tasarımın sadece bir süs veya iyi bir pr çalışması değil, şirketimizi var eden temel kavram olduklarına inanıyoruz. Alelade veya sıradan ürünler geliştirmek yerine, firmamız her ürününde sanatçı ve tasarımcı desteği almaya azami gayret göstermekte olup, inovasyon odaklı çalışarak kendi farkını ortaya koymakta ve her zaman tecrübesini yeni sanatçılarla ve tasarımcılarla paylaşmaya özen göstermektedir.</p>
-                        </article>
+                            </article>
+                            <article class="tab-pane" id="kalitefelsefemiz" itemscope itemtype="http://schema.org/Article">
+                                <header>
+                                    <h3><span itemprop="name">Kalite Felsefemiz</span></h3>
+                                    <p><time itemprop="pubdate" datetime="2010-10-08">8 Ekim 2012</time></p>
+                                </header>
+                                <p>Kızılyıdız Matbaacılık A.Ş. olarak biz, kalitenin ve tasarımın sadece bir süs veya iyi bir pr çalışması değil, şirketimizi var eden temel kavram olduklarına inanıyoruz. Alelade veya sıradan ürünler geliştirmek yerine, firmamız her ürününde sanatçı ve tasarımcı desteği almaya azami gayret göstermekte olup, inovasyon odaklı çalışarak kendi farkını ortaya koymakta ve her zaman tecrübesini yeni sanatçılarla ve tasarımcılarla paylaşmaya özen göstermektedir.</p>
+                            </article>
+                        </div>
                     </section>
                 </div>
             </div>
         </section>
         <footer>
-            <div id="footer-content">
-                <div class="row">
-                    <nav class="span2 offset3">
+            <div class="row">
+                <nav class="span3 offset1">
+                    <div class="kutuyazisi footerbox">
                         <h4>Bağlantılar</h4>
                         <ul id="altListe">
                             <li><a href="anaSayfa.html">Ana Sayfa</a></li>
                             <li><a href="hakkimizda.html">Hakkımızda</a></li>
                             <li><a href="kurumsal.html">Kurumsal</a></li>
                         </ul>
-                    </nav>
-                    <div id="iletişim">
-                        <div id="adres" class="span2">
-                            <h4>Adres:</h4>
-                            Kızılyıldız Matbaacılık A.Ş.
-                            Denizler Mah.
-                            Eren Sok. No:68
-                            Sireci, Fatih 34110
-                            İstanbul TÜRKİYE
-                        </div>
-                        <div id="telefon" class="span2">
-                            <h4>Telefon</h4>
-                            Tel: +90 212 444 19 17
-                            Fax: +90 212 444 19 05
-                        </div>
+                    </div>
+                </nav>
+                <div class="span4">
+                    <div class="kutuyazisi footerbox">
+                        <h4>Adres:</h4>
+                        Kızılyıldız Matbaacılık A.Ş.
+                        Denizler Mah.
+                        Eren Sok. No:68
+                        Sireci, Fatih 34110
+                        İstanbul TÜRKİYE
+                    </div>
+                </div>
+                <div class="span3">
+                    <div class="kutuyazisi footerbox">
+                        <h4>Telefon</h4>
+                        Tel: +90 212 444 19 17
+                        Fax: +90 212 444 19 05
                     </div>
                 </div>
             </div>
-            <div id="footer-floor">
-
-                <div id="copyright">Her Hakkı Saklıdır. 2012 Kızılyıldız Matbaacılık A.Ş.</div>
+            <div class="row">
+                <div class="span12">
+                    <div class="footer-floor">
+                        <div id="copyright">Her Hakkı Saklıdır. 2012 Kızılyıldız Matbaacılık A.Ş.</div>
+                    </div>
+                </div>
             </div>
-
         </footer>
     </div>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
