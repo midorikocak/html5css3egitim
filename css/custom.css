@@ -1,8 +1,3 @@
-#marka
-{
-    float:left;
-}
-
 #icerik { /* this is the div you want to fill the window */
 min-height: 300px !important;
 }
@@ -10,7 +5,12 @@ min-height: 300px !important;
 #baglantilar
 {
     float:right;
-    margin:20px;
+    margin-top:20px;
+}
+
+header
+{
+    margin-bottom:20px;
 }
 
 #logo
@@ -25,8 +25,6 @@ min-height: 300px !important;
 
 #bilgiler > article
 {
-    padding: 10px;
-    border: 1px solid #e8e8e8;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -38,22 +36,35 @@ min-height: 300px !important;
     height:242px;
 }
 
+.footerbox
+{
+    margin-top:20px;
+    margin-bottom:20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background: #1b1b1b;
+    min-height:200px;
+}
+
+.kutuyazisi {
+	padding: 5px 15px
+}
+
 #bilgiler
 {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-top: 20px;
 }
 
 footer
 {
-    margin-top:20px;
-}
-
-#footer-content
-{
+    position:absolute;
+    top:900px;
+    overflow: auto;
     background: #252525;
     color: #999;
-    padding:10px;
+    margin-top:10px;
 }
 
 footer h4
@@ -71,11 +82,10 @@ footer a
     list-style:none;
 }
 
-#footer-floor {
+.footer-floor {
     color: #999;
-    background: #1b1b1b;
     padding: 10px;
-    text-align:right;
+    text-align:center;
 }
 
 p, ul, ol, dl {
