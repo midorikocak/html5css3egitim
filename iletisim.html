@@ -15,7 +15,7 @@
                 <div id="logo" class="span1">
                     <img src="img/logo.jpg" alt="Logo" />
                 </div>
-                <hgroup class="span2">
+                <hgroup class="span3">
                     <h1>Kızılyıldız</h1>
                     <h4>Matbaacılık A.Ş.</h4>
                 </hgroup>
@@ -23,10 +23,10 @@
             <div id="baglantilar" class="span8 navbar">
                 <nav class="navbar-inner">
                     <ul class="nav">
-                        <li><a href="anaSayfa.html">Ana Sayfa</a></li>
+                        <li><a href="index.html">Ana Sayfa</a></li>
                         <li><a href="hakkimizda.html">Hakkımızda</a></li>
                         <li><a href="urunler.html">Ürünlerimiz</a></li>
-                        <li><a href="haberler.html">Duyurular</a></li>
+                        <li><a href="duyurular.html">Duyurular</a></li>
                         <li><a href="kurumsal.html">Kurumsal</a></li>
                         <li><a href="iletisim.html">İletişim</a></li>
                     </ul>
@@ -34,10 +34,17 @@
             </div>
         </header>
         <section id="icerik" class="container">
-                <div class="span3"><h3>İletişim Bilgileri:</h3></div>
+            <div class="row">
+                <div class="span4 yanliste">
+                    <div class="kutuyazisi">
+                        <ul class="nav nav-list">
+                            <li>İletişim Bilgileri</li>
+                        </ul>
+                    </div>
+                </div>
                 <div class="span8">
                     <div itemscope itemtype="http://schema.org/LocalBusiness">
-                        <span itemprop="name"><h4>Kızılyıldız Matbaacılık A.Ş.</h4></span><hr>
+                        <h4><span itemprop="name">Kızılyıldız Matbaacılık A.Ş.</span></h4>
                         <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                             <h5>Adres:</h5>
                             <p><span itemprop="streetAddress"> Denizler Mah. Eren Sok. No:68</span><br/>
@@ -49,54 +56,69 @@
                             <strong>Fax:</strong><span itemprop="faxNumber">+90 212 444 19 05</span><br/>
                             <strong>E-mail:</strong> <span itemprop="email">iletisim(at)kizilyildizbaski.com.tr</span>
                         </div>
-                        <hr>
                     </div>
-                    <div class="span3"><h3>İletişim Formu:</h3></div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="span4 yanliste">
+                        <div class="kutuyazisi">
+                            <ul class="nav nav-list">
+                                <li>İletişim Formu</li>
+                            </ul>
+                        </div>
+                    </div>
                     <div class="span8">
                         <form action="iletisim.html" method="post">
                             <fieldset>
                                 <legend>Gönderen Bilgisi</legend>
-                                <label for="">Adı Soyadı:</label>
+                                <label for="adSoyad">Adı Soyadı:</label>
                                 <input type="text" id="adSoyad" name="adSoyad" placeholder="Adınız Soyadınız" />
-                                <label for="">E-posta Adresi:</label>
+                                <label for="ePosta">E-posta Adresi:</label>
                                 <input type="email" id="ePosta" name="ePosta" placeholder="E-posta adresiniz"/>
-                                <label for="">Mesaj:</label>
+                                <label for="formmesaj">Mesaj:</label>
                                 <textarea id="formmesaj" name="formmesaj">Mesajınız</textarea><br />
                                 <input type="submit" value="Gönder" />
                             </fieldset>
                         </form>
                     </div>
+                </div>
             </section>
             <footer>
-                <div id="footer-content">
-                    <div class="row">
-                        <nav class="span2 offset3">
+                <div class="row">
+                    <nav class="span3 offset1">
+                        <div class="kutuyazisi footerbox">
                             <h4>Bağlantılar</h4>
                             <ul id="altListe">
                                 <li><a href="anaSayfa.html">Ana Sayfa</a></li>
                                 <li><a href="hakkimizda.html">Hakkımızda</a></li>
                                 <li><a href="kurumsal.html">Kurumsal</a></li>
                             </ul>
-                        </nav>
-                        <div id="iletişim">
-                            <div id="adres" class="span2">
-                                <h4>Adres:</h4>
-                                Kızılyıldız Matbaacılık A.Ş.
-                                Denizler Mah.
-                                Eren Sok. No:68
-                                Sireci, Fatih 34110
-                                İstanbul TÜRKİYE
-                            </div>
-                            <div id="telefon" class="span2">
-                                <h4>Telefon</h4>
-                                Tel: +90 212 444 19 17
-                                Fax: +90 212 444 19 05
-                            </div>
+                        </div>
+                    </nav>
+                    <div class="span4">
+                        <div class="kutuyazisi footerbox">
+                            <h4>Adres:</h4>
+                            Kızılyıldız Matbaacılık A.Ş.
+                            Denizler Mah.
+                            Eren Sok. No:68
+                            Sireci, Fatih 34110
+                            İstanbul TÜRKİYE
+                        </div>
+                    </div>
+                    <div class="span3">
+                        <div class="kutuyazisi footerbox">
+                            <h4>Telefon</h4>
+                            Tel: +90 212 444 19 17
+                            Fax: +90 212 444 19 05
                         </div>
                     </div>
                 </div>
-                <div id="footer-floor">
-                    <div id="copyright">Her Hakkı Saklıdır. 2012 Kızılyıldız Matbaacılık A.Ş.</div>
+                <div class="row">
+                    <div class="span12">
+                        <div class="footer-floor">
+                            <div id="copyright">Her Hakkı Saklıdır. 2012 Kızılyıldız Matbaacılık A.Ş.</div>
+                        </div>
+                    </div>
                 </div>
             </footer>
         </div>
