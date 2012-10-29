@@ -1,5 +1,5 @@
 #icerik { /* this is the div you want to fill the window */
-min-height: 790px !important;
+min-height: 300px !important;
 }
 
 #baglantilar
@@ -59,6 +59,8 @@ header
 
 footer
 {
+    position:absolute;
+    top:900px;
     overflow: auto;
     background: #252525;
     color: #999;
@@ -108,8 +110,7 @@ p, ul, ol, dl {
 
 .urun-listesi .urun {
     float: left;
-    overflow:auto;
-    width: 20%;
+    width: 145px;
     padding: 6px;
     background-color: #fff;
     border: 1px solid #ececec;
@@ -147,7 +148,3 @@ p, ul, ol, dl {
     position: relative;
 }
 
-.nav-tabs
-{
-    min-width:280px !important;
-}
